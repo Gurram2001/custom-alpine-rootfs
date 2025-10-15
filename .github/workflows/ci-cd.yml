@@ -9,6 +9,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       
+      - name: Download Alpine Rootfs latest
+        run: wget https://dl-cdn.alpinelinux.org/alpine/v3.22/releases/x86_64/alpine-minirootfs-3.22.2-x86_64.tar.gz
+        
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
 
