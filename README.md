@@ -2,7 +2,7 @@
 
 This repo shows how to build a minimal Docker image using Alpine Rootfs and automate builds with GitHub Actions.
 
-## Steps
+## Steps for Manual
 
 1. Download official Alpine Rootfs latest from website:
    `wget https://dl-cdn.alpinelinux.org/alpine/v3.22/releases/x86_64/alpine-minirootfs-3.22.2-x86_64.tar.gz`
