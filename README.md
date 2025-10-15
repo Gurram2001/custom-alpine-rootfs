@@ -10,9 +10,12 @@ This repo shows how to build a minimal Docker image using Alpine Rootfs and auto
 2. Place Dockerfile and .tar.gz in repo root.
 
 3. Build locally:
-   docker build -t custom-alpine:latest .
+   `docker build -t custom-alpine:latest .`
+4. Check with  `docker run -it custom-alpine:latest`
+5. Once you enter shell. Check with ` cat /etc/os-release`
+<img width="851" height="245" alt="image" src="https://github.com/user-attachments/assets/3938326a-fab7-486e-9d05-537bf13f6eb3" />
 
-4. CI/CD: On push to main, image is built and pushed automatically!
+6. Clone this repo, once you completed manual process with CI/CD: On push to main, image is built and pushed automatically!
 
 ## Customization
 
