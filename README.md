@@ -21,4 +21,5 @@ This repo shows how to build a minimal Docker image using Alpine Rootfs and auto
 
 - Edit Dockerfile to add packages via RUN apk add --no-cache package
 - Update workflow for tags or registry as needed
+- Main changes
 
